@@ -1,5 +1,5 @@
 /* Unit 6 Friends Book Main class
-By: Monica Bacatan
+By: Monica 
  */
 
 package sample;
