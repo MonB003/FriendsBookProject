@@ -45,7 +45,6 @@ Using JavaFX in the project:
 - In IntelliJ, go to: File > Settings > Languages & Frameworks > JavaFX
   - Under *Path to SceneBuilder*, copy the file location of the SceneBuilder executable on your device
   - Click *Apply*, then *Close*
-<br>
 
 <b>Note:</b> if SceneBuilder fxml files give you an SDK error:
 - In IntelliJ, go to: File > Project Settings > Modules
@@ -62,6 +61,13 @@ Configuring the project in IntelliJ:
     - ex. sample.Main
 - Once the configuration information is filled out, click *Ok*
 
+Configuring the SDK:
+- In IntelliJ:
+  - File > Project Structure > Project Settings > Project
+    - Use SDK: 14
+    - Language level: 18 - No new language features
+  - File > Project Structure > Project Settings > Modules
+    - Use SDK: 1.8
 
 ### Running the project:
 1. In IntelliJ, open the Main.java file
